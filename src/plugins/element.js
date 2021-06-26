@@ -1,8 +1,7 @@
 import Vue from 'vue'
-import { Button, Form, FormItem, Input, Message } from 'element-ui'
+import Element from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import { Message } from 'element-ui'
+Vue.use(Element)
 
-Vue.use(Button)
-Vue.use(Form)
-Vue.use(FormItem)
-Vue.use(Input)
 Vue.prototype.$message = Message
